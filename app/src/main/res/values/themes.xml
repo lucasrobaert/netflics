@@ -75,7 +75,12 @@
         <!-- Customize your theme here. -->
         <item name="primaryButtonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton.PrimaryButton</item>
         <item name="secondaryButtonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton.SecondaryButton</item>
-
         <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button.BaseButton</item>
+
+        <item name="gradientBackground">@drawable/gradient_black</item>
+        <item name="subtitleStyle">@style/Widget.SubTitle1</item>
+        <item name="titleStyle">@style/Widget.Title</item>
+        <item name="body1Style">@style/Widget.Body1</item>
+        <item name="body2Style">@style/Widget.Body2</item>
     </style>
 </resources>

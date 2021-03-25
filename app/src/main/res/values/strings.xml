@@ -3,6 +3,10 @@
 
     <!-- Onboarding -->
     <string name="start_button">Vamos lá</string>
+    <string name="onboarding_first_page_subtitle">Assista onde quiser. Cancele quando quiser</string>
+    <string name="onboarding_first_page_title">Filmes, séries e muito mais, sem limites</string>
+    <string name="onboarding_privacy">Privacidade</string>
+    <string name="onboarding_faq">Perguntas Frequentes</string>
 
 
 </resources>
