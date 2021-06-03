@@ -1,21 +1,22 @@
-package br.iesb.mobile.netflics.ui.fragment.onboarding.screens
+package br.iesb.mobile.netflics.ui.fragment.onboarding.screen
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import br.iesb.mobile.netflics.R
-
+import androidx.fragment.app.Fragment
+import br.iesb.mobile.netflics.databinding.FragmentOnboardingThirdScreenBinding
 
 class OnboardingThirdScreenFragment : Fragment() {
+    private lateinit var binding: FragmentOnboardingThirdScreenBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_onboarding_third_screen, container, false)
-    }
+    ): View {
+        binding = FragmentOnboardingThirdScreenBinding.inflate(inflater, container, false)
+        binding.lifecycleOwner = this
 
+        return binding.root
+    }
 }
